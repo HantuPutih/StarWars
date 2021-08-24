@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Cards from "../components/Cards";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchMovies } from "../store/actions";
